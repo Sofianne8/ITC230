@@ -1,0 +1,19 @@
+{
+  "name": "sofianne",
+  "version": "1.0.0",
+  "description": "ITC230 Assignments ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Sofianne8/ITC230.git"
+  },
+  "author": "Sofianne Battikh",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Sofianne8/ITC230/issues"
+  },
+  "homepage": "https://github.com/Sofianne8/ITC230#readme"
+}
