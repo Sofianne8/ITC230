@@ -21,8 +21,7 @@ exports.delete = (title) => {
     Song: songs
   }
 };
-console.log(this.item);
-console.log(this.delete("Volcano"));
+]
 
 exports.get = (title) => {
   return songs.find((item) => {
