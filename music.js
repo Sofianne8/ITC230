@@ -1,6 +1,3 @@
-/**
- * Created by sofiannebattikh on 4/14/17.
- */
 'use strict'
 let songs = [
   {title: "Volcano", author: "Damien Rice", pubDate: 2002},
@@ -14,6 +11,7 @@ exports.delete = (title) => {
   let newSongs = songs.filter((item) => {
     return item.title !== title;
   });
+
   songs = newSongs;
   return {
     deleted: songs.length !== oldLength,
@@ -21,12 +19,8 @@ exports.delete = (title) => {
     Song: songs
   }
 };
-]
-
 exports.get = (title) => {
   return songs.find((item) => {
     return item.title === title;
   });
 };
-
-
