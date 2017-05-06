@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+<body>
+  <h2>Informations about your song</h2>
+  {{#if result}}
+    <li>title: {{ result.title }}
+    <li>author: {{ result.author }}
+    <li>pubDate: {{ result.pubDate }}
+  {{else}}
+Please try Again!
+    {{/if}}
+</body>
+</html> 
