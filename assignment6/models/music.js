@@ -15,4 +15,4 @@ let mySchema = mongoose.Schema({
     pubDate: String,
   });
 
-module.exports = mongoose.model('Brewery', mySchema);
+module.exports = mongoose.model('music', mySchema);
