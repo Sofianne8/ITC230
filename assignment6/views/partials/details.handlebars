@@ -1,0 +1,19 @@
+
+  {{#if result}}
+    <h2>Details for {{title}}</h2>
+    <ul>
+        {{#each result}}
+        <li>{{@key}}: {{this}}</li>
+        {{/each}}
+    </ul>
+          
+    <form action="delete" method="POST">        
+        <button id="delete" name="title" type="delete" value={{title}}>Delete song</button>
+    </form>       
+  {{else}}
+    <h2>{{title}} not found</h2>
+  {{/if}}
+    <a href="home">Home Page</a>
+
+
+
